@@ -1,0 +1,31 @@
+{
+  "name": "fullstack-w-node",
+  "version": "1.0.0",
+  "description": "A template for quickly creating a new Healthgrades UI module.",
+  "main": "index.js",
+  "scripts": {
+      "start":"nodemon --exec babel-node server.js --ignore public/",
+      "dev":"webpack -wd" // run in watch mode and development mode
+  },
+  "author": "healthgrades",
+  "dependencies": {
+    "babel-preset-react-hmre": "^1.1.1",
+    "express": "^4.15.3",
+    "mongo": "^0.1.0",
+    "react": "^15.5.4",
+    "react-dom": "^15.5.4"
+  },
+  "license": "GPL-3.0",
+  "devDependencies": {
+    "babel-cli": "^6.24.1",
+    "babel-eslint": "^7.2.3",
+    "babel-loader": "^7.0.0",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-react": "^6.24.1",
+    "babel-preset-stage-2": "^6.24.1",
+    "eslint": "^3.19.0",
+    "eslint-plugin-react": "^7.0.1",
+    "nodemon": "^1.11.0",
+    "webpack": "^2.6.1"
+  }
+}
