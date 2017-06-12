@@ -4,14 +4,18 @@
   "description": "A template for quickly creating a new Healthgrades UI module.",
   "main": "index.js",
   "scripts": {
-      "start":"nodemon --exec babel-node server.js --ignore public/",
-      "dev":"webpack -wd" // run in watch mode and development mode
+    "start": "nodemon --exec babel-node server.js --ignore public/",
+    "dev": "webpack -wd"
   },
   "author": "healthgrades",
   "dependencies": {
+    "axios": "^0.16.2",
     "babel-preset-react-hmre": "^1.1.1",
+    "ejs": "^2.5.6",
     "express": "^4.15.3",
+    "json-loader": "^0.5.4",
     "mongo": "^0.1.0",
+    "node-sass-middleware": "^0.11.0",
     "react": "^15.5.4",
     "react-dom": "^15.5.4"
   },
